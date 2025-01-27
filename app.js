@@ -14,7 +14,7 @@ let currentIndex = 0;
 
 const rebderEacheImage = (data) => {
 const item = `
-<div class="item">
+<div class="item px-8">
 <img src="${data.Image}" alt="${currentIndex}">
 <div>
 <button id="prev" onclick="prevImage()"><</button>
